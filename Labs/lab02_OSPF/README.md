@@ -14,4 +14,4 @@
 
 2) Описание схемы.
 
-[Текст ссылки](Labs/lab01_architect/README.md)
+[Текст ссылки](../lab01_architect/README.md)
