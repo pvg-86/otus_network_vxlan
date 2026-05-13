@@ -1,4 +1,4 @@
-# ДЗ_2. Underlay OSPF
+# ДЗ_2. Underlay OSPF.
 ### Цель:
 - настроить OSPF для Underlay сети.
 - описать.

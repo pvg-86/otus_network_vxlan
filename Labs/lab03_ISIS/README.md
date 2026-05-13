@@ -1,4 +1,4 @@
-# ДЗ_3. Underlay IS-IS
+# ДЗ_3. Underlay IS-IS.
 ### Цель:
 - настроить IS-IS для Underlay сети.
 - описать.
