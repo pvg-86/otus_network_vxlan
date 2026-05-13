@@ -19,7 +19,7 @@
 - Порты работают в режиме **point-to-point**.
 - Включена проверка подлинности соседей.
 
-#### 3) Проверка.
+### Проверка.
 
 
 **Вывод информации о соседях на Spine1.**
@@ -71,7 +71,7 @@ C1_S2# show ip route ospf-UNDERLAY
 
 ```
 
-**Проверка доступности с Leaf1 до Leaf3.**
+**Проверка доступности Loopback интерфейсов, с Leaf1 до Leaf3.**
 ```
 C1_L1# ping 10.0.0.3
 PING 10.0.0.3 (10.0.0.3): 56 data bytes
@@ -713,3 +713,8 @@ router ospf UNDERLAY
 
 ```
 </details>
+
+
+### Дополнительная информация.
+---------------------------------------
+- [Cisco Nexus 9000 Series NX-OS Routing Configuration Guide](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/93x/unicast/configuration/guide/b-cisco-nexus-9000-series-nx-os-unicast-routing-configuration-guide-93x/b-cisco-nexus-9000-series-nx-os-unicast-routing-configuration-guide-93x_chapter_011011.html)
