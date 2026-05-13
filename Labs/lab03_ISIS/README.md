@@ -9,12 +9,31 @@
 
 ![alt text](image.png)
 
+Схему будем собирать на cisco Nexus9000v.
+```
+C1_S1# show version 
+
+Nexus 9000v is a demo version of the Nexus Operating System
+
+Software
+  BIOS: version 
+ NXOS: version 9.3(1)
+  BIOS compile time:  
+  NXOS image file is: bootflash:///nxos.9.3.1.bin
+  NXOS compile time:  7/18/2019 15:00:00 [07/19/2019 00:04:48]
+
+Hardware
+  cisco Nexus9000 9000v Chassis 
+   with 8159828 kB of memory.
+  Processor Board ID 9JSBSJSTQXP
+```
 
 
 #### 2) Описание схемы.
 
 - [Описание наименования и выделение адресного пространства, описано в ДЗ_1.](../lab01_architect/README.md)
 - Схема особых требований не имеет, поэтому все реализовано в одной Area 1.
+- Маршрутизацию будем использовать **L1/L2**.
 - По умолчанию в IS-IS включено **passive-interface default**.
 - Порты работают в режиме **point-to-point**.
 
